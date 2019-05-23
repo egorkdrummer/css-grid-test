@@ -9,14 +9,39 @@
 </head>
 <body>
 
+  <code>
+
+    display: -ms-grid;
+    <br/>
+    display: grid;
+    <br/>
+    <br/>
+    -ms-grid-columns:1fr 1fr 1fr;
+    <br/>
+    grid-template-columns: 1fr 1fr 1fr;
+    <br/>
+    <br/>
+    -ms-grid-column: 1;
+    <br/>
+    grid-column: 1
+  </code>
+
   <div class="grid">
-    <div class="grid-item">1</div>
-    <div class="grid-item">2</div>
-    <div class="grid-item">3</div>
-    <div class="grid-item">4</div>
+    <div class="grid-item">
+      <div class="content">1</div>
+    </div>
+
+    <div class="grid-item">
+        <div class="content">2</div>
+    </div>
+
+    <div class="grid-item">
+        <div class="content">3</div>
+    </div>
+    <!-- <div class="grid-item">4</div>
     <div class="grid-item">5</div>
     <div class="grid-item">6</div>
-    <div class="grid-item">7</div>
+    <div class="grid-item">7</div> -->
   </div>
 
 </body>
