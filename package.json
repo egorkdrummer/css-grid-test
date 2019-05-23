@@ -1,0 +1,21 @@
+{
+  "name": "css-grid-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "scss": "npx sass --watch scss/style.scss css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egorkdrummer/css-grid-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egorkdrummer/css-grid-test/issues"
+  },
+  "homepage": "https://github.com/egorkdrummer/css-grid-test#readme"
+}
